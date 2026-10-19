@@ -1,10 +1,11 @@
 Changelog
 
 MyGame.cpp
-Line 51 to 64: added obstacle interactions
-L196 to 219: added new level layout
-L307: specified that the logging must also NOT be a ghostling
-L319 to 330: added new interaction - while GHOST is active, clicking a ghostling will execute Explode() function
+
+- Line 51 to 64: added obstacle interactions
+- L196 to 219: added new level layout
+- L307: specified that the logging must also NOT be a ghostling
+- L319 to 330: added new interaction - while GHOST is active, clicking a ghostling will execute Explode() function
 
 MyObjects.cpp
 L56: added new state "walk", which is used in obstacle interactions
