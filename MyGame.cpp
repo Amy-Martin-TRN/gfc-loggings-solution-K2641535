@@ -304,7 +304,7 @@ void CMyGame::OnLButtonDown(Uint16 x, Uint16 y)
 	}
 
 	for (CGameObject* pSprite : m_sprites)
-		if (!pSprite->is("ghostling") && pSprite->HitTest(x, y, 5) && !pSprite->IsDying())
+		if (!pSprite->is("ghostling") && pSprite->is("logging") && pSprite->HitTest(x, y, 5) && !pSprite->IsDying())
 		{
 			CLogging* pLogging = (CLogging*)pSprite;
 			switch (m_mode)
